@@ -1,0 +1,94 @@
+body{
+	padding: 0px;
+}
+
+.sofian {
+	width: 15%;
+	height:15%;
+	border-radius: 20%
+}
+.instagram {
+	width: 5%;
+	height:5%;
+}
+.twitter {
+	width: 5%;
+	height:5%;
+	border-radius: 6px
+}
+.linkedin {
+	width: 5%;
+	height: 5%;
+}
+a{
+	margin-left: 10px;
+}
+
+/* Custom design with class */
+
+.container {
+	width: 700px; /* 20% */
+	margin: 40px auto; /* top/bottom: 40px; left/right: automatic */
+}
+
+.card-white {
+	background-color: white
+	padding: 60px;
+	box-shadow:0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px; 
+	text-align: center;
+}
+.element.style {
+	width: 700px;
+	margin: 10px auto;
+}
+
+/* Colors and fonts */
+
+body {  
+background: rgb(230, 230, 230);;
+color:black;
+font-family: Copperplate;
+font-size: 16px;
+}
+
+h1 {
+	color: #2E279D;
+	font-family: Chalkduster;
+	font-size: 30px;
+}
+
+h2 {
+	color: #4D80E4;
+	font-family: Copperplate;
+	font-size: 22px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
+
+
+
+
